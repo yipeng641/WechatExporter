@@ -19,41 +19,34 @@ Wemory 面向希望在自己的电脑上整理微信资料的用户。应用在�
 - 通讯录：查看联系人，并将联系人和群成员导出为 XLSX。
 - 公众号：批量采集、整理并导出公众号文章。
 
+## 本地优先
+
+微信数据的读取、解密和导出均在本机完成，内容不会上传。联网仅用于应用更新及下载必要组件；导出文件由你自行选择保存位置。
+
 ## 聊天记录导出
 
 Wemory 会将微信会话按好友、群聊和企业会话分类，支持搜索、类型筛选和批量选择。你可以在导出前直接浏览消息内容，并按日期范围导出指定会话。
 
 ![Wemory 群聊记录浏览界面](assets/wemory-chat-list.png)
 
-聊天记录支持文本、图片、视频、语音、表情、附件和折叠消息等常见类型。图片使用原图导出，未下载的视频也会显示封面，便于离线查看和归档。
+聊天记录支持文本、图片、视频、语音、表情、附件和折叠消息等常见类型。图片使用原图导出，未下载的视频也会显示封面，便于离线查看和归档
 
-![Wemory 聊天消息浏览界面](assets/wemory-chat-view.png)
 
-选择一个或多个会话后点击“导出”，可生成适合浏览的 HTML 文件，或便于打印、存档的 PDF 文件，并可限定导出日期范围。
-
-![Wemory 聊天记录导出设置](assets/wemory-chat-export.png)
-
-## 本地优先
-
-微信数据的读取、解密和导出均在本机完成，内容不会上传。联网仅用于应用更新及下载必要组件；导出文件由你自行选择保存位置。
-
-## 产品界面
-
-### 公众号采集任务
+## 公众号采集和导出
 
 ![Wemory 公众号采集任务界面](assets/wemory-official-account.png)
 
-### 通讯录
+## 通讯录的导出
 
 ![Wemory 通讯录界面](assets/wemory-contacts.png)
 
 ## 下载与安装
 
-1. 前往 [Releases](https://github.com/ftyszyx/wemory-wechat-backup/releases/latest) 下载
+1. 前往 [Releases](https://wemory.bytefuse.cn/) 下载 
 2. 在 Windows 10 或 Windows 11 x64 上运行安装程序。
 3. 启动 Wemory，按照界面提示连接本机微信数据目录。
 
-当前安装包尚未使用 Windows 代码签名证书签名，因此系统可能显示 Microsoft Defender SmartScreen 提示。请只从本仓库 Release 或产品官网下载，并核对文件校验值：
+当前安装包尚未使用 Windows 代码签名证书签名，因此系统可能显示 Microsoft Defender SmartScreen 提示。
 
 
 ## 更新记录
