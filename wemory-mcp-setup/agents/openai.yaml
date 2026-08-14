@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wemory MCP Setup"
+  short_description: "?? Wemory MCP ? Codex ? WorkBuddy"
+  default_prompt: "Use $wemory-mcp-setup to configure Wemory MCP for Codex or WorkBuddy."
