@@ -52,7 +52,7 @@ Wemory 可以在本机启动只读 HTTP MCP 服务，让 Codex、WorkBuddy 等�
 
 ![Wemory MCP 配置复制界面](assets/wemory-mcp-config.png)
 
-3. 让 AI 工具按照 https://github.com/yipeng641/WechatExporter/wemory-mcp-setup/SKILL.md 完成安装。
+3. 让 AI 工具按照[ https://github.com/yipeng641/WechatExporter/wemory-mcp-setup/SKILL.md](https://github.com/yipeng641/WechatExporter/blob/main/wemory-mcp-setup/SKILL.md) 完成安装。
 
 ![让 AI 工具安装 Wemory MCP](assets/wemory-mcp-install-command.png)
 
