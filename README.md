@@ -32,6 +32,9 @@ Wemory 会将微信会话按好友、群聊和企业会话分类，支持搜索�
 
 聊天记录支持文本、图片、视频、语音、表情、附件和折叠消息等常见类型。图片使用原图导出，未下载的视频也会显示封面，便于离线查看和归档
 
+<img width="1905" height="1341" alt="聊天记录导出效果" src="https://github.com/user-attachments/assets/33857ed9-b740-46a2-b1fe-ac1523488fda" />
+
+
 ## 资源刷新
 
 在微信中打开尚未加载的图片或语音后，无需重启 Wemory。在聊天记录或朋友圈页面点击刷新按钮，即可重新读取已经下载到本机的资源。
@@ -71,6 +74,11 @@ Wemory 可以在本机启动只读 HTTP MCP 服务，让 Codex、WorkBuddy 等�
 
 ![Wemory 通讯录界面](assets/wemory-contacts.png)
 
+效果如下： 标签，群昵称，好友资料（手机号）都 有
+ 
+<img width="2857" height="234" alt="联系人朋友资料" src="https://github.com/user-attachments/assets/3e5b095b-9756-4bb3-994e-a07ae64bfb4b" />
+
+
 ## 下载与安装
 
 1. 前往 [Releases](https://wemory.bytefuse.cn/) 下载
@@ -81,6 +89,21 @@ Wemory 可以在本机启动只读 HTTP MCP 服务，让 Codex、WorkBuddy 等�
 
 
 ## 更新记录
+### 2026.8.22
+
+1. 群联系人导出，增加朋友资料(电话号) 支持多个手机号
+
+### 2026.8.21
+
+1. 公众号增加采集：阅读量，评论数，点赞数的采集
+   
+### 2026.8.19:
+
+1. 本地的聊天数据和通讯录数据可以归档
+2. 归档支持增量归档
+3. 增加归档查看工具，可以查看你的归档
+   在做
+
 
 ### 2026.8.14
 
