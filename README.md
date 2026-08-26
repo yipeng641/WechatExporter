@@ -34,14 +34,14 @@ Wemory 会将微信会话按好友、群聊和企业会话分类，支持搜索�
 
 <img width="1905" height="1341" alt="聊天记录导出效果" src="https://github.com/user-attachments/assets/33857ed9-b740-46a2-b1fe-ac1523488fda" />
 
+## 通讯录的导出
 
-## 资源刷新
+![Wemory 通讯录界面](assets/wemory-contacts.png)
 
-在微信中打开尚未加载的图片或语音后，无需重启 Wemory。在聊天记录或朋友圈页面点击刷新按钮，即可重新读取已经下载到本机的资源。
+效果如下： 标签，群昵称，好友资料（手机号）都 有
+ 
+<img width="2857" height="234" alt="联系人朋友资料" src="https://github.com/user-attachments/assets/3e5b095b-9756-4bb3-994e-a07ae64bfb4b" />
 
-![Wemory 聊天记录资源刷新按钮](assets/wemory-chat-refresh.png)
-
-![Wemory 朋友圈资源刷新按钮](assets/wemory-moments-refresh.png)
 
 ## 使用 AI 分析聊天记录（MCP）
 
@@ -70,13 +70,7 @@ Wemory 可以在本机启动只读 HTTP MCP 服务，让 Codex、WorkBuddy 等�
 
 ![Wemory 公众号采集任务界面](assets/wemory-official-account.png)
 
-## 通讯录的导出
 
-![Wemory 通讯录界面](assets/wemory-contacts.png)
-
-效果如下： 标签，群昵称，好友资料（手机号）都 有
- 
-<img width="2857" height="234" alt="联系人朋友资料" src="https://github.com/user-attachments/assets/3e5b095b-9756-4bb3-994e-a07ae64bfb4b" />
 
 
 ## 下载与安装
@@ -89,6 +83,16 @@ Wemory 可以在本机启动只读 HTTP MCP 服务，让 Codex、WorkBuddy 等�
 
 
 ## 更新记录
+
+
+### 2026.8.23 资源刷新
+
+在微信中打开尚未加载的图片或语音后，无需重启 Wemory。在聊天记录或朋友圈页面点击刷新按钮，即可重新读取已经下载到本机的资源。
+
+![Wemory 聊天记录资源刷新按钮](assets/wemory-chat-refresh.png)
+
+![Wemory 朋友圈资源刷新按钮](assets/wemory-moments-refresh.png)
+
 ### 2026.8.22
 
 1. 群联系人导出，增加朋友资料(电话号) 支持多个手机号
