@@ -17,7 +17,6 @@ Wemory 面向希望在自己的电脑上整理微信资料的用户。应用在�
 - 聊天记录：浏览私聊、群聊和企业会话，导出为 HTML 或 PDF。
 - 朋友圈：按时间浏览朋友圈内容，导出为 HTML 或 PDF。
 - 通讯录：查看联系人，并将联系人和群成员导出为 XLSX。
-- 公众号：批量采集、整理并导出公众号文章。
 - AI 分析：通过本地 MCP 服务，让支持 MCP 的 AI 工具读取并分析聊天上下文。
 
 ## 本地优先
@@ -64,12 +63,6 @@ Wemory 可以在本机启动只读 HTTP MCP 服务，让 Codex、WorkBuddy 等�
 4. 重启 AI 工具后，即可让它查找并分析指定会话的聊天记录。
 
 ![AI 通过 Wemory MCP 分析聊天记录](assets/wemory-mcp-analysis.png)
-
-
-## 公众号采集和导出
-
-![Wemory 公众号采集任务界面](assets/wemory-official-account.png)
-
 
 
 
