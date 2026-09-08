@@ -17,7 +17,6 @@ Wemory 面向希望在自己的电脑上整理微信资料的用户。应用在�
 - 聊天记录：浏览私聊、群聊和企业会话，导出为 HTML 或 PDF。
 - 朋友圈：按时间浏览朋友圈内容，导出为 HTML 或 PDF。
 - 通讯录：查看联系人，并将联系人和群成员导出为 XLSX。
-- AI 分析：通过本地 MCP 服务，让支持 MCP 的 AI 工具读取并分析聊天上下文。
 
 ## 本地优先
 
@@ -40,29 +39,6 @@ Wemory 会将微信会话按好友、群聊和企业会话分类，支持搜索�
 效果如下： 标签，群昵称，好友资料（手机号）都 有
  
 <img width="2857" height="234" alt="联系人朋友资料" src="https://github.com/user-attachments/assets/3e5b095b-9756-4bb3-994e-a07ae64bfb4b" />
-
-
-## 使用 AI 分析聊天记录（MCP）
-
-Wemory 可以在本机启动只读 HTTP MCP 服务，让 Codex、WorkBuddy 等支持 MCP 的 AI 工具按需读取当前连接账号的聊天上下文，用于摘要、检索和分析。服务仅监听本机地址，并使用访问令牌验证请求。
-
-1. 打开“设置 > AI 工具”，设置固定端口并启用 HTTP MCP。
-
-![Wemory HTTP MCP 设置界面](assets/wemory-mcp-settings.png)
-
-2. 服务启动后点击“复制配置”。请勿公开配置中的访问令牌。
-
-![Wemory MCP 配置复制界面](assets/wemory-mcp-config.png)
-
-3. 让 AI 工具按照[ https://github.com/yipeng641/WechatExporter/wemory-mcp-setup/SKILL.md](https://github.com/yipeng641/WechatExporter/blob/main/wemory-mcp-setup/SKILL.md) 完成安装。
-
-![让 AI 工具安装 Wemory MCP](assets/wemory-mcp-install-command.png)
-
-![Wemory MCP 安装验证成功](assets/wemory-mcp-install-result.png)
-
-4. 重启 AI 工具后，即可让它查找并分析指定会话的聊天记录。
-
-![AI 通过 Wemory MCP 分析聊天记录](assets/wemory-mcp-analysis.png)
 
 
 
