@@ -44,7 +44,7 @@ Wemory 会将微信会话按好友、群聊和企业会话分类，支持搜索�
 
 ## 下载与安装
 
-1. 前往 [Releases](https://wemory.1postpro.com/) 下载
+1. 前往 [Releases](https://wemory.chituhub.com/?channel=zhang) 下载
 2. 在 Windows 10 或 Windows 11 x64 上运行安装程序。
 3. 启动 Wemory，按照界面提示连接本机微信数据目录。
 
